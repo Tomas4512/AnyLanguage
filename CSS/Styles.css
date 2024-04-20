@@ -1,0 +1,25 @@
+*{
+  background-color: rgb(231, 231, 211);  
+  color: rgb(0, 0, 0);
+}
+header{color: rgb(0, 0, 0);
+font-family: Georgia;
+background-color: rgb(81, 130, 173);
+width: 1000px;
+height: 150px;
+font-size: xx-large;
+margin-left: 200px;
+}
+img{width: 100px;
+    height: 100px;
+}
+#Titulo1{
+    color: blueviolet;
+}
+.B1{
+    color: blue;
+}
+#logo{
+    display: flex;
+    justify-content: left;
+}
