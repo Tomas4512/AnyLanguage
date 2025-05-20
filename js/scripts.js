@@ -1,4 +1,4 @@
-// scripts del sitio
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
