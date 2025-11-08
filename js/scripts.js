@@ -44,3 +44,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+ const sr = ScrollReveal({
+        origin: 'bottom',   
+        distance: '50px',   
+        duration: 1000,     
+        delay: 200,         
+        reset: false        
+    });
+
+    sr.reveal('.masthead', { delay: 100 });
+    sr.reveal('.page-section', { delay: 200 });
+    sr.reveal('.portfolio-item', { interval: 150 });
+    sr.reveal('.divider-custom', { origin: 'left', delay: 300 });
+    sr.reveal('.masthead-avatar', { origin: 'top', delay: 400 });
+    sr.reveal('.masthead-heading', { origin: 'bottom', delay: 500 });
+    sr.reveal('.masthead-subheading', { origin: 'bottom', delay: 600 });
